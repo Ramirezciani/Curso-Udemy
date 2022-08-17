@@ -1,0 +1,218 @@
+/* body{
+background-color: darkgrey;
+color: ;
+}
+
+#p{
+color: beige;
+}
+
+.test{
+color: blueviolet;
+}
+
+.box{
+background-color: white;
+border-style: solid;
+border-width: 1px;
+border-color: brown;
+border-radius: 4px;
+border-top: solid 0px;
+}
+.contenido{
+padding: 10px;
+font-size: medium;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration: none;
+text-transform: capitalize;
+letter-spacing: 3px;
+line-height: 2.0;
+word-spacing: 4.0;
+text-shadow: 5px 2px 2px yellow;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: oblique;
+font-size: 20px;
+font-weight: 900;
+}
+.footer{
+padding: 10px;
+border-top: solid 1px coral;
+}
+
+.primary{
+background-color: yellow;
+border: 10px;
+padding:10px;
+}
+.secondary{
+background-color: violet;
+padding: 10px;
+color: white;
+}
+
+.header{
+padding: 10px;
+border-bottom: solid 1px coral;
+font-size: xx-large;
+}
+
+a{
+color: whitesmoke;
+word-spacing: 4.0;
+border: solid 1px royalblue;
+
+background-color: red;
+padding: 10px;
+margin: 15px;
+border-radius: 4px;
+
+
+}
+
+a:link{
+color:black;
+text-decoration: none;
+}
+
+a:visited{
+color: yellow;
+}
+
+a:active{
+color:darkgreen;
+}
+
+
+a:hover{
+color: darkblue;
+text-decoration: underline;
+background-color: white;
+}
+
+
+ul{
+background-color: white;
+border: solid 5px yellow;
+border-radius: 4px;
+padding-left: 0px;
+list-style-type: none;
+
+}
+
+ul li {
+border-bottom: solid 1px yellow;
+padding: 15px;
+
+} */
+/* 
+#overflow{
+    width: 100px;
+    height: 100px;
+    overflow-y: auto;
+    overflow-x: scroll;
+} */
+
+/* opacidad del 0 a 1 */
+/* img{
+    float: right;
+   
+}
+
+img:hover{
+    opacity: 0,;
+}
+
+/* 
+selectores con decendientes 
+div p {
+    color:blue
+} */
+
+
+/* BARRA DE NAVEGACION CON LISTAS  */
+
+/* 
+ul{
+    list-style-type:none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: darkslategray;
+    left:0;
+}
+
+li {
+    float:left;
+}
+
+li a{
+    display: block;
+    color:white ;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.active{
+    background-color: green;
+}
+
+.content{
+    margin-top: 55px;
+} */
+
+
+/* Menu dropDown */
+
+
+.dropdown-btn { 
+    background-color: olive;
+    color:white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor:pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 2);
+}
+
+.dropdown-content a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content a:hover{
+    background-color: lightgray;
+    
+}
+
+.dropdown:hover .dropdown-btn{
+    background-color: lightskyblue;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}

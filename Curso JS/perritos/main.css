@@ -256,3 +256,23 @@ textarea{
     border-radius: 4px;
     box-sizing: border-box;
 } */
+
+/* .fondo {
+    background-color: rgba(0, 0, 0, 2);
+    background: ;
+    background-image: url(https://placekitten.com/200/286);
+    color:white;
+    border: solid ;
+    border-radius: 4px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position:;
+    background-attachment: scroll;
+    background-size: cover;
+
+} */
+
+.fondo{
+    background-image: linear-gradient(to right,yellow,blueviolet, lightblue);
+    color:white;
+}

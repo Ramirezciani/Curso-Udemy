@@ -16,3 +16,8 @@ distribuido en columnas y filas , se puede cambiar la posicion , el ancho y el a
 Inline-grid = utiliza solo el espacio del elemento mas ancho de la grilla 
 
 altura automatica sin no es especificamos, ya sea con grid-template-rows o grid-template-columns
+
+
+* se puede utilizar px , fr (fraciones), rem , % 
+
+minmax ( setear valores de minimo en maximo y minino tanto como en columnas y filas )

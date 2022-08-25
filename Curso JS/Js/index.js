@@ -24,3 +24,6 @@ console.log(miNumero,miNumero2,miNumero3,trueBoolean,falseBoolean,miPrimeraVaria
 
 let undef
 console.log(undef);
+
+let nulo = null
+console.log(nulo);

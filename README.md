@@ -35,6 +35,7 @@ grid column and row con notacion X / X para inicio y fin .
 
 
 __________________________________________________________________________
+//25-08
 <h1>JavaScript</h1>
 
 Ejecutar codigo de js -- node nombrearchivo.js
@@ -70,4 +71,12 @@ console.log(miPrimeraVariable); //ESTA SERIA UNA VARIABLE DE STRING
 <b>Variables siempre inician con una letra a - z y asignar nombres coherentes al contexto<b>
 
 --let undef
-console.log(undef); 
+console.log(undef); -- imprimira en consola undefined (ya que no tiene ningun valor asignado)
+
+
+--let nulo = null
+console.log(nulo); (nulo si es un valor, en consola deberia imprimir null)
+
+<h6>Objetos en JavaScript</h6>
+
+

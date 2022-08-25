@@ -1,7 +1,7 @@
 # Curso-Udemy
 Curso Udemy Js, HTML, CSS
 
-
+<h1>HTML - CSS <h1>
 
 17-08-2022: Menu Nav / Menu DropDown 
 18-08-2022: Css Avanzado
@@ -35,7 +35,7 @@ grid column and row con notacion X / X para inicio y fin .
 
 
 __________________________________________________________________________
-JavaScript
+<h1>JavaScript<h1>
 
 Ejecutar codigo de js -- node nombrearchivo.js
 
@@ -67,4 +67,7 @@ console.log(miPrimeraVariable); //ESTA SERIA UNA VARIABLE DE STRING
 
 -- variable sin palabras reservadas por el momento ( se veran en condiciones)
 
-<b>Variables siempre inician con una letra a - z <b>
+<b>Variables siempre inician con una letra a - z y asignar nombres coherentes al contexto<b>
+
+--let undef
+console.log(undef); 

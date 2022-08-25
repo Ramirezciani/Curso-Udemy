@@ -1,7 +1,7 @@
 # Curso-Udemy
 Curso Udemy Js, HTML, CSS
 
-<h1>HTML - CSS <h1>
+<h1>HTML - CSS </h1>
 
 17-08-2022: Menu Nav / Menu DropDown 
 18-08-2022: Css Avanzado
@@ -35,7 +35,7 @@ grid column and row con notacion X / X para inicio y fin .
 
 
 __________________________________________________________________________
-<h1>JavaScript<h1>
+<h1>JavaScript</h1>
 
 Ejecutar codigo de js -- node nombrearchivo.js
 

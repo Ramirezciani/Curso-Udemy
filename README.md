@@ -60,3 +60,11 @@ tipos de datos:
 example 
 --let miPrimeraVariable = 'Mi primera variable!'
 console.log(miPrimeraVariable); //ESTA SERIA UNA VARIABLE DE STRING 
+
+
+-- Concepto de mutabilidad
+ Cuando tenemos una variable y le cambiamos el valor ( reasignacion de variables)
+
+-- variable sin palabras reservadas por el momento ( se veran en condiciones)
+
+<b>Variables siempre inician con una letra a - z <b>

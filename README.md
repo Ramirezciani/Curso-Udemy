@@ -21,3 +21,13 @@ altura automatica sin no es especificamos, ya sea con grid-template-rows o grid-
 * se puede utilizar px , fr (fraciones), rem , % 
 
 minmax ( setear valores de minimo en maximo y minino tanto como en columnas y filas )
+
+
+repeat = indicar cuantas veces repite el argumento 
+
+
+grid cap para brechas 
+primer valor filas 
+segundo valor Columnas 
+
+grid column and row con notacion X / X para inicio y fin 

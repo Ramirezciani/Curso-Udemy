@@ -30,4 +30,33 @@ grid cap para brechas
 primer valor filas 
 segundo valor Columnas 
 
-grid column and row con notacion X / X para inicio y fin 
+grid column and row con notacion X / X para inicio y fin .
+
+
+
+__________________________________________________________________________
+JavaScript
+
+Ejecutar codigo de js -- node nombrearchivo.js
+
+cuando se abre un parentesis, inmediantamente cerrar (buenas practicas)
+
+comentarios en js // al inicio dentro del codigo 
+tipos de datos: 
+1. String = cadena de caracteres. ejemple 'a' ( se usa comilla simple )
+2. Boolean = True ( valor verdadero ) / False (valor falso )
+3. Null = Valor nulo (relacion con variables que se encuentran vacias)
+4. Number = 1239810293 (sin necesidad de escribir comillas dobles o simple)
+ ( "123" = String / 123 = Number )
+5. Undefined = (similar a nulo pero Undefined es una variable que no ha sido definida
+6. Object = Estructuras para agrupar tipos de datos 
+
+
+* Variables (definicion de variables)
+1. var = (forma antigua de contemplar variables )
+2. let 
+3. const
+
+example 
+--let miPrimeraVariable = 'Mi primera variable!'
+console.log(miPrimeraVariable); //ESTA SERIA UNA VARIABLE DE STRING 

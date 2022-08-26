@@ -80,3 +80,43 @@ console.log(nulo); (nulo si es un valor, en consola deberia imprimir null)
 <h6>Objetos en JavaScript</h6>
 
 
+Objeto =  agrupación de datos , estos datos hacen sentido entre si.
+
+<b>const miObjeto = {
+    unNumero: 12,
+    unString: 'Cadena de caracteres',
+    unaCondicion: true,
+}<b> Ejemplo 
+
+const miObjeto = {
+    unNumero: 12,
+    unString: 'Cadena de caracteres',
+    unaCondicion: true,
+}
+
+console.log(miObjeto.unNumero); para imprimir solo algo del objeto.
+
+
+<h6>Arrglos en JS</h6>
+
+diferentes tipos de datos 
+
+const arr = [1,2,"hola",miObjeto]
+console.log(arr);
+
+(CLS o CLEAR PARA LIMPIAR LA CONSOLA)
+
+
+const arrVacio = []
+// const arr = [1,2,"hola",miObjeto]
+
+
+arrVacio.push(5)
+arrVacio.push(3)
+arrVacio.push('Hola')
+console.log(arrVacio);
+
+<b>arreglo.push = empujar valores al arreglo (es un metodo).<b>
+
+
+<h6>Operadores matematicos <h6>

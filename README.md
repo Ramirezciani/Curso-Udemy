@@ -77,7 +77,7 @@ console.log(undef); -- imprimira en consola undefined (ya que no tiene ningun va
 --let nulo = null
 console.log(nulo); (nulo si es un valor, en consola deberia imprimir null)
 
-<h6>Objetos en JavaScript</h6>
+<h4>Objetos en JavaScript</h4>
 
 
 Objeto =  agrupación de datos , estos datos hacen sentido entre si.
@@ -97,7 +97,7 @@ const miObjeto = {
 console.log(miObjeto.unNumero); para imprimir solo algo del objeto.
 
 
-<h6>Arrglos en JS</h6>
+<h4>Arrglos en JS</h4>
 
 diferentes tipos de datos 
 
@@ -119,4 +119,4 @@ console.log(arrVacio);
 <b>arreglo.push = empujar valores al arreglo (es un metodo).<b>
 
 
-<h6>Operadores matematicos <h6>
+<h4>Operadores matematicos </h4>

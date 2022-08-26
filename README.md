@@ -120,3 +120,55 @@ console.log(arrVacio);
 
 
 <h4>Operadores matematicos </h4>
+
+Suma , Resta, Multiplicacion , Division 
+
+
+const suma = 1 + 2
+const resta = 1 -2 
+const multi  = 5 * 3
+const div  = 9 / 3
+
+console.log(suma,resta,multi,div);
+
+-- Modulo ( divide dos valores y retorna el valor que sobra)
+Ejemplo 
+const modulo = 10  % 3 
+console.log(modulo);
+
+const vs let = const no deja cambiar las variables , pero sin las propiedades
+
+let num = 5 
+num++
+console.log(num); (num++ sumo uno al valor de la variable)
+
+
+num-- 
+console.log(num); (decremento de una variable)
+
+num += (operado de asignacion en incremento)
+num -= (operador de asignacion en decremento)
+num *= (multiplicacion)
+num /= (division)
+
+
+Operadores de comparacion( nos permiten hacer comparaciones entre distintos tipos de dato )
+
+const resultado1 = 5 === 6 
+console.log(resultado1)
+
+=== nos devuelve un boolean true o false ( === es un operador de comparación y estricto)
+
+const resultado1 = 5 === 6 
+const resultado2 = 5 == '5' (comparacion con doble igualdad y nos da el resultado de true) (== no es estricto , string pueden ser iguales a numeros si el valor es el mismo )
+console.log(resultado1, resultado2)
+
+Operadores de comparacion menor y mayor
+
+
+const resultado3 = 5 < 6
+const resultado4 = 5 < 5
+const resultado5 = 5 > 6
+const resultado6 =  6 > 5
+
+console.log(resultado3, resultado4, resultado5, resultado6)

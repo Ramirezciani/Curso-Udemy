@@ -107,11 +107,59 @@ let miPrimeraVariable = 'Mi primera variable!'
 // console.log(resultadoNot);
 
 
-const edad = 5 
-if (edad > 5 && edad < 18 ){
-    console.log('Acceso Permitido')
+// const edad = 5 
+// if (edad > 5 && edad < 18 ){
+//     console.log('Acceso Permitido')
 
-}else{
-    console.log('Acceso denegado')
+// }else{
+//     console.log('Acceso denegado')
 
+// }
+
+// WHILE
+// let x  = 0
+
+// while (x < 5 ) {
+//     console.log(x);
+//     x++
+
+// }
+
+// console.log('terminando el loop')
+
+// let y = 3; 
+
+// switch (y) {
+//     case 1: {
+//         console.log('Ejemplo 1')
+//         break;
+
+//     }
+//     case 2:{
+//         console.log('Ejemplo  2')
+//         break;
+
+//     }
+//     case 3: 
+//         console.log('Ejmeplo 3 ')
+//         break;
+
+//     default: 
+//         console.log('Ejemplo Predeterminado')
+//         break;
+// }
+
+// for (let i = 0; i < 10; i++ ){
+//     console.log(i)
+
+// }
+
+
+const numeros = [1,2,'hola',4,5]
+
+
+// console.log(numeros[2]);
+
+for (let i = 0; i < numeros.length; i++){
+    console.log(numeros[i]);
 }

@@ -188,9 +188,82 @@ String , numeros y objetos evaluan en true
 
 iteraciones y evaluar condiciones 
 
-if (false){
+-- if (false){
     console.log('Dentro del if')
 
 }(este console log no deberia ejecutar nada en consola)
 
 else siempre se debe escribir con un if 
+
+
+-- while = instruccion que se queda iterando hasta el final de los ciclos a menos que le indiquemos lo contrario
+
+ejemplo
+let x  = true
+
+while (x ) {
+    console.log(x);
+    x = false
+
+}
+
+
+-- Switch = es otro tipo de control de flujo , que nos permite ejecutar una u otra instruccion dependiendo de una variable.
+
+
+switch ('x'){
+    case 1: {
+        console.log('Ejemplo 1')
+        break;
+
+    }
+    case 2:{
+        console.log('Ejemplo  2')
+        break;
+
+    }
+    case 3: 
+        console.log('Ejmeplo 3 ')
+        break;
+
+    default: 
+        console.log('Ejemplo Predeterminado')
+        break;
+}
+
+
+Es importante poner los break al terminar el case , sin break salta a la evaluacion siguiente 
+
+-- for = es similar a while  , nos permite iterar o estar dentro de un lopp hasta que se cumpla una condicion.
+
+dentro del paretensis se le indican 3 instrucciones. 
+- variable inicial 
+- condicion para salir del loop
+- el incremento   
+
+for (let i = 0; i < 10; i++ ){
+    console.log(i)
+
+}
+
+-- Como accder a arreglos 
+
+los arreglos en js tiene la propiedad length
+(-- el largo -1)
+
+
+const numeros = [1,2,3,4,5]
+
+
+// console.log(numeros[2]);
+
+for (let i = 0; i < numeros.length; i++){
+    console.log(numeros[i]);
+}
+
+
+ejemplo para acceder a los elementos de un arreglo
+
+
+
+<h3>FUNCIONES EN JS</h3>

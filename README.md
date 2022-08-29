@@ -172,3 +172,25 @@ const resultado5 = 5 > 6
 const resultado6 =  6 > 5
 
 console.log(resultado3, resultado4, resultado5, resultado6)
+
+
+<h4>Operadores Logicos </h4>
+
+Or = || (Evaluar el primer valor que se ha considerado como true , la mayoria de las veces se utiliza para comparar dos valores)
+and = && (and busca el primer valor de false )
+not = ! (invierte el resultado , niega el valor)
+
+or y and ( short circuit evaluation , evaluan hasta el primer valor que corta la operacion)
+
+String , numeros y objetos evaluan en true 
+
+<h3>Control de Flujo </h3>
+
+iteraciones y evaluar condiciones 
+
+if (false){
+    console.log('Dentro del if')
+
+}(este console log no deberia ejecutar nada en consola)
+
+else siempre se debe escribir con un if 

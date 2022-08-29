@@ -82,17 +82,36 @@ let miPrimeraVariable = 'Mi primera variable!'
 // const resultado2 = 5 === '5'
 // console.log(resultado1, resultado2)
 
-const resultado3 = 5 < 6
-const resultado4 = 5 <5
-const resultado5 = 5 > 6
-const resultado6 =  6 > 5
-const resultado7 = 5 <= 5
-const resultado8 = 5 <= 6
-const resultado9 = 5 >= 5
-const resultado10 = 5 >= 6
+// const resultado3 = 5 < 6
+// const resultado4 = 5 <5
+// const resultado5 = 5 > 6
+// const resultado6 =  6 > 5
+// const resultado7 = 5 <= 5
+// const resultado8 = 5 <= 6
+// const resultado9 = 5 >= 5
+// const resultado10 = 5 >= 6
 
-const resultado11 = 5 !== 6 
-const resultado12 = 5 != '5' 
+// const resultado11 = 5 !== 6 
+// const resultado12 = 5 != '5' 
 
 
-console.log(resultado11,resultado12);
+// console.log(resultado11,resultado12);
+
+// const resultadoOr = false  || 'hola'
+// console.log(resultadoOr);
+
+// const resultadoAnd = true && false
+// console.log(resultadoAnd);
+
+// const resultadoNot = !true 
+// console.log(resultadoNot);
+
+
+const edad = 5 
+if (edad > 5 && edad < 18 ){
+    console.log('Acceso Permitido')
+
+}else{
+    console.log('Acceso denegado')
+
+}

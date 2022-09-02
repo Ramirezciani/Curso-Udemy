@@ -155,11 +155,50 @@ let miPrimeraVariable = 'Mi primera variable!'
 // }
 
 
-const numeros = [1,2,'hola',4,5]
+// const numeros = [1,2,'hola',4,5]
 
 
-// console.log(numeros[2]);
+// // console.log(numeros[2]);
 
-for (let i = 0; i < numeros.length; i++){
-    console.log(numeros[i]);
-}
+// for (let i = 0; i < numeros.length; i++){
+//     console.log(numeros[i]);
+// }
+
+// function iterar (arg1){
+
+
+
+
+//     for (let i = 0; i < arg1.length; i++){
+//         console.log(arg1[i]);
+// }
+
+// }
+// const numeros = [1,2,'hola',4,5]
+// const nombres = ['Pedro', 'Juan', 'Felipe','Paulo']
+// iterar(numeros)
+// iterar(nombres)
+
+// function suma(a, b){
+//     return(a + b);
+
+// }
+
+// const resultadosuma = suma(1,2)
+// const resultadosuma2 = suma(5,6)
+// const resultadosuma3 = suma(resultadosuma,resultadosuma2)
+// console.log('Resultado', resultadosuma3);
+
+
+// function sumar (a, b , cb){
+//     const resultado = a + b; 
+//     cb(resultado)
+// }
+
+// function callback (result){
+//     console.log('resultado', result)
+// }
+// sumar(2, 3, callback)
+
+
+const miFatArrowFunction = () =~

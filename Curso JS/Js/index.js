@@ -155,11 +155,39 @@ let miPrimeraVariable = 'Mi primera variable!'
 // }
 
 
-const numeros = [1,2,'hola',4,5]
+// const numeros = [1,2,3,4,5]
 
 
-// console.log(numeros[2]);
+// // console.log(numeros[2]);
 
-for (let i = 0; i < numeros.length; i++){
-    console.log(numeros[i]);
+// for (let i = 0; i < numeros.length; i++){
+//     console.log(numeros[i]);
+// }
+
+// const arrowFunction = (a,b) => a + b 
+// const r = arrowFunction(1,2);
+// console.log(r);
+
+// const arrowFunction = (a,b) =>{
+//     return a + b
+// }
+
+// const r = arrowFunction (1,2)
+
+// console.log(r);
+
+
+function sumar (a,b , cb){
+    const r = a + b;
+    cb (r)
+
 }
+
+function callback(result){
+    console.log('resultado',result);
+}
+callback(6)
+
+sumar (2,3, function(r){
+    console.log('funcion anonima', r)
+})

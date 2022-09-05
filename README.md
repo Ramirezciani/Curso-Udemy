@@ -267,3 +267,22 @@ ejemplo para acceder a los elementos de un arreglo
 
 
 <h3>FUNCIONES EN JS</h3>
+
+
+funciones anonimas = funcion sin nombre , la utilizamos en un contexto para que sea ejecutada por otra funcion. (no permite reutilziar el codigo?)
+
+
+
+
+<h3>Introduccion al DOM</h3>
+
+representancion del html como objeto. 
+contiene interfaz de programacion standard
+se puede acceder con metodos 
+
+poner el script debajo del body
+
+
+innerHTML o innerTextr 
+
+preventdefault para evitar el funcionamiento predeterminado de los forms. 

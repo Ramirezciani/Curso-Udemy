@@ -9,11 +9,19 @@ window.onload = () => {
         todo.value = '';
         todos.push(todoText);
         const todoList = document.getElementById('todo-list');
-        todoList.innerHTML = '';
-        for(let i = 0; i < todos.length; i++ ){
-            todoList.innerHTML += '<li>' + todos[i] + '</li>';
-
-        }
-    }
+        const todosTemplate = todos.map(t => '<li>' + t + '</li>');
+        todoList.innerHTML = todosTemplate.join('');
+        document.querySelectorAll('#todo-list');
 
 }
+
+
+// const materials = [
+//     'Hydrogen',
+//     'Helium',
+//     'Lithium',
+//     'Beryllium'
+//   ];
+  
+//   console.log(materials.map(material => material.length));
+//   // expected output: Array [8, 6, 7, 9]

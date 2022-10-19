@@ -1,27 +1,35 @@
-const todos = [];
+// const todos = [];
 
-window.onload = () => {
-    const form = document.getElementById('todo-form');
-    form.onsubmit = (e) => {
-        e.preventDefault();
-        const todo = document.getElementById('todo'); 
-        const todoText = todo.value;
-        todo.value = '';
-        todos.push(todoText);
-        const todoList = document.getElementById('todo-list');
-        const todosTemplate = todos.map(t => '<li>' + t + '</li>');
-        todoList.innerHTML = todosTemplate.join('');
-        document.querySelectorAll('#todo-list');
+// const render = () => {
+//         const todoList = document.getElementById('todo-list');
+//         const todosTemplate = todos.map(t => '<li>' + t + '</li>');
+//         todoList.innerHTML = todosTemplate.join('');
+//         const elementos = document.querySelectorAll('#todo-list li')
+//         elementos.forEach((elemento, i) => {
+//           elemento.addEventListener("click", () => {
+//            elemento.parentNode.removeChild(elemento)
+//            todos.splice(i, 1)
+//            render()
+            
+//           })
+//         })
+// }
 
-}
+const miTitulo = document.querySelector('h1');
+miTitulo.textContent = '¡Paulo!';
+
+// constante o funcion miTitulo , con document.querySelector busco por id en este caso h1 , con miTitulo.TextContent agrego texto al h1 con la funcion const miTitulo}
 
 
-// const materials = [
-//     'Hydrogen',
-//     'Helium',
-//     'Lithium',
-//     'Beryllium'
-//   ];
+function sum(x, y, z) {
+    return x + y + z;
+  }
   
-//   console.log(materials.map(material => material.length));
-//   // expected output: Array [8, 6, 7, 9]
+  const numbers = [1, 2, 3];
+  
+  console.log(sum(...numbers));
+  // expected output: 6
+  
+  console.log(sum.apply(null, numbers));
+  // expected output: 6
+  

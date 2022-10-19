@@ -286,3 +286,16 @@ poner el script debajo del body
 innerHTML o innerTextr 
 
 preventdefault para evitar el funcionamiento predeterminado de los forms. 
+
+
+
+
+Promesas 
+
+
+resolver and then 
+
+promise.resolve  (resolver inmediatamente)
+promise.then (valor = ) (lo resuelve de manera futura)
+
+>

@@ -30,7 +30,7 @@ Lo que se vera:
 
 PARTE I
 
-HTML
+<h1>HTML </h1>
     Se compone por etiquetas <> </> 
     Existen varias etiquetas , las mas importantes son < html> < head> < body> -->
     -- Doctype => que soporta html5 , existen algunas etiquetas que ya no funcionan o no van con este curso.
@@ -39,16 +39,16 @@ HTML
 
    Se puede autocompletar ctrl space y poner html5 para cargar template basico (html, head, body)
 
-   < html> = Contenido escrito en html / sintaxis <></> , para abrir etiquetas y cerrar  -->
+   --< html> = Contenido escrito en html / sintaxis <></> , para abrir etiquetas y cerrar  -->
 
    importante la identacion y comentar ( buenas practicas)
 
 
-   < head> = No muestra nada en el explorador, se utiliza para agregar archivos js, css o agregar otras dependecias
+   --< head> = No muestra nada en el explorador, se utiliza para agregar archivos js, css o agregar otras dependecias
 
-   < body> = va el contenido que se muestra en el explorador
+   --< body> = va el contenido que se muestra en el explorador
 
-   < title> = etiqueta para cambiar el nombre del sitio ,  va en el < head> 
+   --< title> = etiqueta para cambiar el nombre del sitio ,  va en el < head> 
 
 < h1> = Heading = titulo 
 < h1 > al < h6> = va cambiando el tamaño 
@@ -58,12 +58,12 @@ HTML
 < br > = salto de linea 
 < hr > = genera una linea horizontal , sirve para separar contenido  
 
-importante siempre cerrar etiquetas solas ejemplo < br / >< hr / > 
+-- Importante siempre cerrar etiquetas solas ejemplo < br / >< hr / > 
 
 
 
 
-
+<h1>CSS</h1>
 
 Grid = grilla ( sistema para distribuir contenido de manera homogenea y ordenada, se puede decir que es un sistema de celda similiar a las plantillas excel,
 distribuido en columnas y filas , se puede cambiar la posicion , el ancho y el alto).

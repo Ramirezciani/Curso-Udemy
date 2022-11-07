@@ -60,6 +60,25 @@ PARTE I
 
 -- Importante siempre cerrar etiquetas solas ejemplo < br / >< hr / > 
 
+< b> = Negrita (bold)
+
+< blockquote> = para citar , El parrafo se desplaza hacia la derecha 
+
+< code> = agregar mas cosas con un formato distinto 
+
+< em > = enfasis ( texto con cursiva)
+
+< i > = texto con cursiva
+
+< pre > = preformateado
+
+< s > = texto tachado
+
+< small> = etiqueta para texto un poco mas pequeño (podria servir como subtitulo al igual que las h5 y h6) 
+
+< u > = para subrayar texto 
+
+< div > = para indicar division o seccion de nuestro codigo
 
 
 

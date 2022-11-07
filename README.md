@@ -3,11 +3,67 @@ Curso Udemy Js, HTML, CSS
 
 <h1>HTML - CSS </h1>
 
-17-08-2022: Menu Nav / Menu DropDown 
-18-08-2022: Css Avanzado
+Nuevo comienzo del curso 04-11-22 
+Se debe terminar antes 30 .
 
 
-Deberia haber tomado apuntes antes (sad)
+04-11
+
+Lo que se vera: 
+- HTML
+- CSS
+- JAVASCRIPT 
+    - DOM 
+    - EVENTOS
+    - JSON 
+    - LOCALSTORAGE
+    - ASYNC - PROMESA
+    - CONTROL DE FLUJO 
+    - FUNCIONES
+    - NODE JS
+    - MONGO DB 
+    - RESTFUL API
+    - SERVERLESS 
+    - PROYECTOS
+    - SERVERLESS 
+
+
+PARTE I
+
+HTML
+    Se compone por etiquetas <> </> 
+    Existen varias etiquetas , las mas importantes son < html> < head> < body> -->
+    -- Doctype => que soporta html5 , existen algunas etiquetas que ya no funcionan o no van con este curso.
+
+    --siempre se le indica la extension del archivo.
+
+   Se puede autocompletar ctrl space y poner html5 para cargar template basico (html, head, body)
+
+   < html> = Contenido escrito en html / sintaxis <></> , para abrir etiquetas y cerrar  -->
+
+   importante la identacion y comentar ( buenas practicas)
+
+
+   < head> = No muestra nada en el explorador, se utiliza para agregar archivos js, css o agregar otras dependecias
+
+   < body> = va el contenido que se muestra en el explorador
+
+   < title> = etiqueta para cambiar el nombre del sitio ,  va en el < head> 
+
+< h1> = Heading = titulo 
+< h1 > al < h6> = va cambiando el tamaño 
+< h5> y < h6 > se suele utilizar para subtitulos
+< p> = etiqueta Parrafo -->
+
+< br > = salto de linea 
+< hr > = genera una linea horizontal , sirve para separar contenido  
+
+importante siempre cerrar etiquetas solas ejemplo < br / >< hr / > 
+
+
+
+
+
 
 Grid = grilla ( sistema para distribuir contenido de manera homogenea y ordenada, se puede decir que es un sistema de celda similiar a las plantillas excel,
 distribuido en columnas y filas , se puede cambiar la posicion , el ancho y el alto).
